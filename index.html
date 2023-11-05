@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-container">
+                <form>
+                    <div class="date-input">
+                        <label>Day</label>
+                        <input type = "number" placeholder="DD" class="day">
+                        <small></small>
+                    </div>
+                    <div class="date-input">
+                        <label>Month</label>
+                        <input type = "number" placeholder="MM" class="month">
+                        <small></small>
+                    </div>
+                    <div class="date-input">
+                        <label>Year</label>
+                        <input type = "number" placeholder="YYYY" class="year">
+                        <small></small>
+                    </div>
+                </form>
+                <div class="content-divider">
+                    <div class="divider"></div>
+                    <button type="submit" class="btn">
+                        <img src="images/icon-arrow.svg" alt="">
+                    </button>
+                </div>
+                <div class="output">
+                    <h1><span id="YY">--</span>years</h1>
+                    <h1><span id="MM">--</span>months</h1>
+                    <h1><span id="DD">--</span>days</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
